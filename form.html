@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="http://local host:5000/api/createuser" method="post">
+            <fieldset>
+            <legend><b>Enquiry Form</b></legend>
+            <label for="name"><b>NAME :</b></label>
+            <input id="name" placeholder="Enter your name" name="name" type="text">
+            <br> <br>
+            <label for="email"><b>EMAIL :</b></label>
+            <input id="email" placeholder="Enter your email" name="email" type="email">
+            <br> <br>
+            <label for="password"><b>PASSWORD :</b></label>
+            <input id="password" placeholder="Enter your password" name="password" type="password">
+            <br> <br>
+            
+            <select>
+                <option  value="#"><b>SELECT YOUR COUNTRY</b></option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Brazil">Brazil</option>
+                <option value="UK">UK</option>
+                
+            </select>
+            <br><br>
+            <label for="file">Select your file</label>
+            <input id="file" type="file">
+            <br><br>
+            <label for="male">Male</label>
+            <input id="male" type="radio" name="male" value="male"><br>
+            <label for="female">Female</label>
+            <input id="female" type="radio" name="male" value="female"><br>
+            <label for="other">Other</label>
+            <input id="other" type="radio" name="male" value="other">
+            <br><br>
+            <label for="male">Male</label>
+            <input id="male" type="checkbox" name="male" value="male"><br>
+            <label for="female">Female</label>
+            <input id="female" type="checkbox" name="male" value="female"><br>
+            <label for="other">Other</label>
+            <input id="other" type="checkbox" name="male" value="other">
+            <br><br>
+            <button type="submit">send data</button>
+            <button type="reset">reset data</button>
+           </fieldset>
+        </form>
+    </body>
+</html>
